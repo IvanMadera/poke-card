@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeCard 💥</title>
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="flex"></main>
+
+    <template id="template-card">
+        <article class="card">
+            <img src="img/bg-pattern-card.svg" alt="imagen header card" class="card-header">
+            <div class="card-body">
+                <img src="img/image-victor.jpg" alt="imagen de vitoko" class="card-body-img">
+                <h1 class="card-body-title">
+                    Victor Gómez
+                    <span>26</span>
+                </h1>
+                <p class="card-body-text">London</p>
+            </div>
+            <div class="card-footer">
+                <div class="card-footer-social">
+                    <h3>80K</h3>
+                    <p>Attack</p>
+                </div>
+                <div class="card-footer-social">
+                    <h3>803K</h3>
+                    <p>Special</p>
+                </div>
+                <div class="card-footer-social">
+                    <h3>1.4K</h3>
+                    <p>Defense</p>
+                </div>
+            </div>
+        </article>
+    </template>
+    <script src="js/app.js"></script>
+</body>
+</html>
